@@ -1,10 +1,3 @@
-/**
- * ─────────────────────────────────────────────────────────────
- *  PORTFOLIO CONTENT — edit everything about yourself here.
- *  No other file needs to change to update text, links, skills,
- *  projects or hobbies.
- * ─────────────────────────────────────────────────────────────
- */
 
 export interface SocialLink {
   label: string;
@@ -38,7 +31,7 @@ export const PORTFOLIO = {
     'I build reliable backend systems with Java and Spring Boot, and clean, modern frontends with Angular. Always learning and contributing to open source.',
   location: 'Europe, Italy',
   email: 'mirgisakitata@gmail.com',
-  photo: 'me.jpg',
+  photo: 'me.JPG',
   cvUrl: '',
 
   socials: [
