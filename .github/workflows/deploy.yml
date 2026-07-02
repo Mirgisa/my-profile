@@ -27,7 +27,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npx ng build --base-href=/my-portfolio/
+      - run: npx ng build --base-href=/my-profile/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/my-portfolio/browser
