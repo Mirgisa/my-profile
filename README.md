@@ -19,15 +19,6 @@ All personal content lives in **one file**:
 src/app/portfolio.data.ts
 ```
 
-Edit your name, role, tagline, about text, skills, projects, hobbies and
-social links there — no other file needs to change.
-
-### Replacing the photo
-
-1. Drop your picture into the `public/` folder (e.g. `public/me.jpg`).
-2. In `src/app/portfolio.data.ts`, change `photo: 'profile.svg'` to
-   `photo: 'me.jpg'`.
-
 ## Development
 
 ```bash

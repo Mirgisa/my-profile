@@ -36,16 +36,16 @@ export const PORTFOLIO = {
   role: 'Full-Stack Developer',
   tagline:
     'I build reliable backend systems with Java and Spring Boot, and clean, modern frontends with Angular. Always learning and contributing to open source.',
-  location: 'Addis Ababa, Ethiopia',
+  location: 'Europe, Italy',
   email: 'mirgisakitata@gmail.com',
-  /** Put your photo in the /public folder and update this path. */
-  photo: 'profile.svg',
+  photo: 'me.jpg',
   cvUrl: '',
 
   socials: [
     { label: 'GitHub', url: 'https://github.com/Mirgisa', icon: 'github' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/your-profile', icon: 'linkedin' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/mirgisa-ketata-00b4b7308?', icon: 'linkedin' },
     { label: 'Email', url: 'mailto:mirgisakitata@gmail.com', icon: 'mail' },
+    { label: 'Twitter', url: 'https://x.com/mirgisa430?s=11', icon: 'twitter' },
   ] as SocialLink[],
 
   about: [
@@ -64,11 +64,15 @@ export const PORTFOLIO = {
     },
     {
       title: 'Backend',
-      skills: ['Java', 'Spring Boot', 'Microservices', 'REST APIs', 'SQL'],
+      skills: ['Java', 'Spring Boot', 'Microservices', 'REST APIs', 'SQL','PostgreSQL', 'NoSQL', 'Docker', 'Kubernetes'],
     },
     {
       title: 'Tools & Practices',
-      skills: ['Git & GitHub', 'CI/CD', 'Testing', 'Agile', 'Figma'],
+      skills: ['Git & GitHub', 'CI/CD', 'Jenkins', 'Testing', 'Agile'],
+    },
+    {
+      title: 'AI tools',
+      skills: ['ChatGPT', 'GitHub Copilot','Claude'],
     },
   ] as SkillGroup[],
 
